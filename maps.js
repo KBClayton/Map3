@@ -5,7 +5,7 @@ $(document).ready(function() {
       }
       
     async function wait() {
-        await sleep(1500);
+        await sleep(3000);
     }
       
     wait().then(function(){
@@ -49,6 +49,4 @@ $(document).ready(function() {
         }
         points.draw();
     })
-    
-
 });
