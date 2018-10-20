@@ -16,7 +16,7 @@ $(document).ready(function() {
 
                 var point_001 = new google.maps.Marker({
                     position: location_001,
-                    title: "Center"
+                    title: "Westin"
                 });
                 point_001.setMap(map); 
                     
@@ -36,6 +36,14 @@ $(document).ready(function() {
                     title: "Unit number 2"
                 });
                 point_003.setMap(map); 
+
+                var location_004={lat: 29.570225,  lng: -97.510398}
+
+                var point_003 = new google.maps.Marker({
+                    position: location_004,
+                    title: "House?"
+                });
+                point_004.setMap(map); 
     
             } 
         }
