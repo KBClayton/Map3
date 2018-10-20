@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <style>
+       #map {
+        height: 900px;
+        width: 100%;
+       }
+    </style>
+      <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+      <script src="maps.js"></script>
+   
+  </head>
+  <body>
+
+
+    <h3>Water map</h3>
+    <div id="map"></div>
+    <script>
+    var map;
+
+
+            //LME2C6-YYCFP8-NGPFAZ-3TA8
+      function initMap() {
+        var uluru = {lat: 32.660000, lng: -98.094527};
+         map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center: uluru
+        });
+      }
+
+  
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoQLe8s7JUbTZ_ubXhGY4cUmLiNqWvQxw&callback=initMap">
+    </script>
+  </body>
+</html>
