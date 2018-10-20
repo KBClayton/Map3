@@ -39,7 +39,7 @@ $(document).ready(function() {
 
                 var location_004={lat: 29.570225,  lng: -97.510398}
 
-                var point_003 = new google.maps.Marker({
+                var point_004 = new google.maps.Marker({
                     position: location_004,
                     title: "House?"
                 });
