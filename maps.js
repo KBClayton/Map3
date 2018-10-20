@@ -5,12 +5,10 @@ $(document).ready(function() {
       }
       
     async function wait() {
-        await sleep(3000);
+        await sleep(1000);
     }
       
     wait().then(function(){
-        var points = {
-            draw: function(){
 
                 var location_001={lat: 29.4340000, lng: -97.391}
 
@@ -45,8 +43,5 @@ $(document).ready(function() {
                 });
                 point_004.setMap(map); 
     
-            } 
-        }
-        points.draw();
     })
 });
